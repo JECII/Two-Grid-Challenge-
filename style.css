@@ -9,5 +9,13 @@
   box-shadow: 1px 1px 2px #e7e7e7;
   border-radius: 4px;
   margin: 20px 50px;
+}
  
+ @mixin make-col($gutter: $grid-gutter-width) {
+  position: relative;
+  float: left;
+  min-height: 1px;
+  padding-left:  ($gutter / 2);
+  padding-right: ($gutter / 2);
+
 }
